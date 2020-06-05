@@ -1,4 +1,4 @@
-SHIPPING TRACKING is application to check the price of postage from the area of origin to the area you want to go, and can tracking your goods. <a href="https://shipping-tacking.netlify.app/" targer="_blank">shipping-tacking.netlify.app</a>
+SHIPPING TRACKING is application to check the price of postage from the area of origin to the area you want to go, and can tracking your goods. <a href="https://shipping-tracking.netlify.app/" targer="_blank">shipping-tracking.netlify.app</a>
 
 ## How To Clone & Run ?
 
