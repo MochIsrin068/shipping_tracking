@@ -1,0 +1,93 @@
+.cekOngkir{
+    >h2{
+        margin-bottom: 16px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 4px;
+    }
+
+    &__form{
+
+        >p{
+            color:  #fff;
+            margin-bottom: 6px;
+        }
+
+        &__input{
+            padding: 6px 12px;
+            background-color:#fff;
+            margin-bottom: 16px;
+            border-radius: 4px;
+
+            >input{
+                width: 100%;
+                border: none;
+            }
+
+            >select{
+                width: 100%;
+                border: none;
+            }
+        }
+
+        &__button {
+            background-color: #4271ffed;
+            padding: 6px;
+            border-radius: 4px;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: #245bffed;
+            }
+            
+            >h3{
+                color: #fff;
+                text-align: center;
+            }
+        }
+
+        &__disable{
+            background-color: grey;
+
+            &:hover{
+                background-color: rgb(110, 110, 110);
+            }
+        }
+    }
+
+    &__divider{
+        border-top: 1px solid #fff;
+        margin-top: 16px;
+    }
+
+    &__results{
+        margin-top: 16px;
+        width: 100%;
+        height: 100%;
+
+        &__item{
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            padding: 6px 0px;
+            background-color: #fff;
+            margin: 6px 0;
+            padding: 10px;
+            border-radius: 4px;
+
+            &__price{
+                color: green;
+                font-weight: 600;
+            }
+
+        }
+
+        &__emptyState{
+            >h3{
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+}

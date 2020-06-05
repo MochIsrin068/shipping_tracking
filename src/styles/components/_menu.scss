@@ -1,0 +1,17 @@
+.menu{
+
+    &__item{
+        font-size: 12px ;
+        border-bottom: 3px solid rgb(246, 246, 246);
+        padding: 16px 0;
+        color: rgb(61, 61, 61);
+        
+        &:hover{
+            color: #e7a61a;
+        }
+    }
+
+    &__isActive{
+        color: #e7a61a;
+    }
+}
