@@ -1,4 +1,4 @@
-SHIPPING TRACKING aplikasi untuk mengecek harga ongkir dari daaerah asal ke daerah yang akan di tuju, dan dapat melacak barang anda.
+SHIPPING TRACKING is application to check the price of postage from the area of origin to the area you want to go, and can tracking your goods.
 
 ## How To Clone & Run ?
 
