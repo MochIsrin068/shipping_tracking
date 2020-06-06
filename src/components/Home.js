@@ -112,6 +112,8 @@ const Home = () => {
         minimumFractionDigits: 2
     })
 
+    const validation = destination === 0 || districtTo === 0 || weight === 0 || courier === 0
+
     return (
         <div className="cekOngkir">
             <h2>Cek Ongkir</h2>
@@ -177,7 +179,7 @@ const Home = () => {
 
 
                 <div className="cekOngkir__form__input">
-                    <input type="text" placeholder="Berat Barang" onChange={(event) => setWeight(event.target.value)}/>
+                    <input type="text" placeholder="Berat Barang ( Kg )" onChange={(event) => setWeight(event.target.value)}/>
                 </div>
                 <div className="cekOngkir__form__input">
                     <select onChange={(event) => setCourier(event.target.value)}>
@@ -187,7 +189,7 @@ const Home = () => {
                         })}
                     </select>
                 </div>
-                <div className={`cekOngkir__form__button  ${isLoading ? "cekOngkir__form__disable" : ""}`} onClick={() => isLoading ?  console.log("Data Not Found") : checkResults()}>
+                <div className={`cekOngkir__form__button  ${isLoading || validation ? "cekOngkir__form__disable" : ""}`} onClick={() => isLoading ? console.log("Loading...") : validation ? alert("All Field Is Required!") : checkResults()}>
                     <h3>{isLoading ? "CHEKING...." : "CHECK"}</h3>
                 </div>
             </div>

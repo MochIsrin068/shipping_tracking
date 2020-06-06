@@ -31,6 +31,8 @@ const Tracking = () => {
         })
     }
 
+    const validation = noResi === "" || courier === ""
+
     return (
         <div className="cekResi">
             <h2>Cek Resi</h2>
@@ -46,7 +48,7 @@ const Tracking = () => {
                         })}
                     </select>
                 </div>
-                <div className={`cekResi__form__button  ${isLoading ? "cekResi__form__disable" : ""}`} onClick={() => isLoading ?  console.log("Data Not Found") : checkResults()}>
+                <div className={`cekResi__form__button  ${isLoading || validation ? "cekResi__form__disable" : ""}`} onClick={() => isLoading ? console.log("Loading...") : validation ? alert("All Field Is Required!") : checkResults()}>
                     <h3>{isLoading ? "CHEKING...." : "CHECK"}</h3>
                 </div>
             </div>
