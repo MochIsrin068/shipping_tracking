@@ -1,4 +1,4 @@
-SHIPPING TRACKING aplikasi untuk mengecek harga ongkir dari daaerah asal ke daerah yang akan di tuju, dan dapat melacak barang anda.
+SHIPPING TRACKING is application to check the price of postage from the area of origin to the area you want to go, and can tracking your goods. <a href="https://shipping-tracking.netlify.app/" targer="_blank">shipping-tracking.netlify.app</a>
 
 ## How To Clone & Run ?
 
@@ -8,6 +8,7 @@ SHIPPING TRACKING aplikasi untuk mengecek harga ongkir dari daaerah asal ke daer
 - go to ```ruangapi.com``` register and copy your API KEY
 - copy your API KEY in ```REACT_APP_API_KEY``` variable in .env file
 - you can change app name in ```REACT_APP_NAME``` with your custom name ( optional )
+- run ```npm start``` or ```yarn start```
 
 
 ## API Documentation ?
